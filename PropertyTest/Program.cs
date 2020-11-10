@@ -9,6 +9,7 @@ namespace PropertyTest
            House house = new House("Akure",false,21, 0.01M);
            House house1 = new House("Osun",false,23, 0.72M);
            House house2 = new House("Lagos",false,31, 0.14M);
+
            Bus bus = new Bus(45,3456, 3500M);
            Bus bus1 = new Bus(35,3434, 3111M);
            Bus bus2= new Bus(75,1777, 5300M);
@@ -20,7 +21,7 @@ namespace PropertyTest
                 }
             }
         }
-    }
+    
 }
 
 

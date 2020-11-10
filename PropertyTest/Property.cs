@@ -45,6 +45,7 @@ public class Vehicle: ITaxable{
       return value;
   }
 }
+
 public class Bus: Vehicle{
   protected int numberOfSeats;
   public Bus(int numberOfSeats, int regNumber, decimal value):
@@ -61,6 +62,8 @@ public class Bus: Vehicle{
       return numberOfSeats * 250M;
   }
 }
+
+
 public class House: FixedProperty {
   protected double area;
   public House(string location, bool inCity, double area, 
