@@ -23,6 +23,8 @@ public class FixedProperty: ITaxable{
       return estimatedValue;
   }
 }
+
+
 public class Vehicle: ITaxable{
   protected int registrationNumber;
   protected double maxVelocity;
